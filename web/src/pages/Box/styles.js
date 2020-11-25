@@ -37,3 +37,17 @@ export const Container = styled.div`
       }
   }
 `;
+
+export const Upload = styled.div`
+    border: 1px dotted #ddd;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    margin: 20px 0;
+
+    p {
+        color: #222;
+    }
+`;
