@@ -31,7 +31,8 @@ O layout da aplicação está disponível abaixo:
 </a>
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center">
-  <img alt="Made by dsenam" src="https://github.com/dsenam/react-api-crypto/blob/main/src/assets/layout.png">
+    <img alt="Made by dsenam" src="https://github.com/dsenam/MERN-dropbox/blob/main/web/src/assets/mainPage.png">
+  <img alt="Made by dsenam" src="https://github.com/dsenam/MERN-dropbox/blob/main/web/src/assets/boxPage.png">  
 </p>
 
 ---
@@ -49,21 +50,25 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 ```bash
 
 # Clone este repositório
-$ git clone https://github.com/dsenam/react-api-crypto.git
+$ git clone https://github.com/dsenam/MERN-dropbox
 
 # Acesse a pasta do projeto no seu terminal/cmd
-$ cd react-api-crypto
+$ cd MERN-dropbox
 
-# Vá para a pasta da aplicação Front End
+# Para a pasta da aplicação Back End
+$ cd backend
+
+# Para a pasta da aplicação Front End
 $ cd web
 
-# Instale as dependências
-$ npm install
+# Para ambos projetos instale as dependências
+$ yarn
 
 # Execute a aplicação em modo de desenvolvimento
-$ npm run start
+BACK END $ yarn start
+FRONT END $ yarn start
 
-# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+# A aplicação backend será aberta na porta:3333 e a frontend será aberta na porta:3000 - acesse http://localhost:3000
 
 ```
 
@@ -75,11 +80,25 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 #### **Website** ([React](https://reactjs.org/) + [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript))
 
-- **Material Icons**
+- **Back end**
+- **NODE**
+- **EXPRESS**
+- **MONGODB**
+- **Cors**
+- **Multer**
+- **Socket.io**
+- **Mongoose**
+
+- **Front end**
+- **React Icons**
+- **React Router Dom**
 - **Axios**
 - **Styled Components**
 - **React Toastify**
+- **React Dropzone**
+- **Moment**
 - **Medias Queries**
+- **Socket.io-Client**
 
 ## 🦸 Autor
 
